@@ -1,0 +1,105 @@
+ 
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .nav {
+            background-color: rgb(248, 248, 255);
+            height: 75px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 5%;
+            align-items: center;
+            font-size: 25px;
+        }
+        .nav-logo {
+            height: 75px;
+            width: 90px;
+        }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(216, 24, 24);
+            width: 100%;
+            padding: 40px;
+            color: white;
+            text-align: center;
+        }
+        .h-text {
+            font-size: 55px;
+        }
+        .p-text {
+            font-size: 20px;
+        }
+        .class img {
+            height: 175px;
+            width: 328px;
+            margin: 10px;
+        }
+        .about2 {
+            text-align: center;
+            font-size: 50px;
+        }
+        .about {
+            text-align: center;
+            font-size: 18px;
+            padding: 0 20px;
+        }
+        .teachers-section {
+            padding: 40px;
+            background-color: #f1f1f1;
+        }
+        .teachers-section h2 {
+            text-align: center;
+            font-size: 40px;
+            margin-bottom: 30px;
+        }
+        .teachers-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .teacher {
+            width: 220px;
+            text-align: center;
+        }
+        .teacher img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .teacher p {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .teacher-table {
+            width: 90%;
+            margin: 40px auto;
+            border-collapse: collapse;
+        }
+        .teacher-table th, .teacher-table td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+        .teacher-table th {
+            background-color: #003366;
+            color: white;
+        }
+        .map-section {
+            padding: 40px;
+            text-align: center;
+        }
+        .map-section h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 80%;
+            height: 500px;
+            border: none;
+        }
+    
